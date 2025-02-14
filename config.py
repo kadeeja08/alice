@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://kottatakkal:kottatakkal@cluster0.h72lg.mongodb.net
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = 1001935706241
+LOG_GROUP_ID = -1001935706241
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 7325280055
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/sonforces"
+SUPPORT_GROUP = "https://t.me/yuyansupport"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,7 +77,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/2cfc03bb0b0c2d1891c1d-820464791bccd851ad.jpg"
 
 PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
 
